@@ -14,7 +14,6 @@ var computerGuesses = []; //this will hold the random letter chosen
 		window.onload = function(){
 		var computerChooses = choices[Math.floor(Math.random()*choices.length)];
 		computerGuesses.push(computerChooses);
-		document.getElementById("console").innerHTML = computerGuesses;
 
 
 };
@@ -54,6 +53,7 @@ var computerGuesses = []; //this will hold the random letter chosen
 				computerGuesses.length = 10;
 				var computerChooses = choices[Math.floor(Math.random()*choices.length)];
 				computerGuesses.push(computerChooses);
+
 
 			};
 
