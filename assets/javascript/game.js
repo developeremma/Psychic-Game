@@ -19,6 +19,7 @@ var computerGuesses = []; //this will hold the random letter chosen
 };
 
 		document.onkeyup = function(event){
+			console.log("THIS IS A TEST");
 		var userKeys = event.key;
 		guessesSoFar.push(userKeys);
 
